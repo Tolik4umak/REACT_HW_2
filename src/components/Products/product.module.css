@@ -1,0 +1,55 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+}
+.card{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+.buttons button{
+   padding: 10px;
+   color: #fff;
+   border-radius: 10px;
+}
+.buttons{
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+.buttons button:first-child{
+    background-color: #832626;
+}
+.buttons button:last-child{
+    background-color: #568b56;
+}
+.to_basket{
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    background-color: #568b56;
+    color: white;
+    width: 25px;
+    height: 25px;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+.buttons button:disabled{
+    background-color: #856060;
+}
+.buttons button:active{
+    transform: scale(0.9);
+}

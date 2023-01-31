@@ -1,0 +1,39 @@
+.container{
+    color: white;
+    margin-top: 50px;
+}
+h2{
+    margin-bottom: 20px;
+}
+
+.basket{
+    margin-bottom: 20px;
+}
+.basket p{
+    padding: 10px;
+}
+.button{
+    margin-left: 10px;
+}
+
+.button button{
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.count, .price{
+    font-size: 20px;
+}
+.num{
+    color: #568b56;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.basket_item span{
+    color: #facf0e;
+    font-size: larger;
+    font-weight: 800;
+}
